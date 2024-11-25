@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <form id="expenseForm">
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" name="amount" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Expense</button>
+    </form>
+    <table class="table mt-4">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="expenseTable">
+        <!-- <tr>
+          <td>Shopping</td>
+          <td>100</td>
+          <td>
+            <button class="btn btn-primary">Edit</button>
+          <td>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

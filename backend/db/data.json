@@ -1,0 +1,39 @@
+{
+  "expenses": [
+    {
+      "id": 1732439552941,
+      "description": "Daily meal(breakfast, lunch, and dinner)",
+      "amount": "10"
+    },
+    {
+      "id": 1732440117750,
+      "description": "Electric fee",
+      "amount": "52"
+    },
+    {
+      "id": 1732445672434,
+      "description": "Haft-yearly internet fee",
+      "amount": "96"
+    },
+    {
+      "id": 1732503401054,
+      "description": "Monthly diabetes medicine fee",
+      "amount": "25"
+    },
+    {
+      "id": 1732503466682,
+      "description": "Health care saving",
+      "amount": "100"
+    },
+    {
+      "id": 1732503486714,
+      "description": "Retired pension fund saving",
+      "amount": "100"
+    },
+    {
+      "id": 1732503540087,
+      "description": "Enforcement life assurance saving",
+      "amount": "210"
+    }
+  ]
+}
